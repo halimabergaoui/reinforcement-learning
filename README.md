@@ -1,4 +1,10 @@
 # reinforcement-learning
+To run this project:
+1. run train rl model
+2. run decide action
+3. make sure get dydx data works
+4. run scheduler/main.py
+
 
 # Dydx Data Extraction
 
@@ -21,3 +27,20 @@ pip install --upgrade parsimonious
 
 python get_price.py
 
+# train rl model
+ Run 
+
+```
+pip3 install matplotlib numpy pandas
+
+python3 main.py
+```
+
+# decide action
+ Run 
+
+```
+pip3 install matplotlib numpy flask
+
+python3 main.py
+```
